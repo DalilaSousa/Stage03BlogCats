@@ -1,107 +1,117 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <title>Blog de Gatos</title>
-</head>
-<body>    
-  <main>
-    <div class="about">  
-      
-      <div class="home">
-        <div class="frame">
-          <div class="home-text">
-            <h4 class="text-h4">fala dev 👋🏼</h4>
-            <h1 class="text-h1">Boas-vindas ao projeto Blog de Gatos</h1>
-            <p>Esse desafio consiste em desenvolver um site responsivo de blog com artigos sobre gatos. 
-              O projeto também apresenta uma barra de busca, recomendação de artigos relacionados e avaliação do artigo.</p>
-            
-            <h1 class="text-h1">Comece por aqui</h1>  
-            <img src="./images/💻 Projeto.png">
-          </div>         
-          
-          <hr class="line"/>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-          <div class="home-autor">
-            <h4 class="text-h4">Criado por:</h4>
-            <div class="autor-designer">
-              <img src="./images/avatar.png">
-              <div class="autor-text">
-                <div class="autor-main">
-                  <text-criador> Daniel Duarte </text-criador>              
-                  <text-nivel> Design Lead @Rocketseat </text-nivel>
-                </div>
-                  
-                <div class="autor-social">
-                  <div class=".autor-insta">
-                    <img src="./images/logo-instagram.svg"><text-criador> @oDaniel2D </text-criador>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog de Gatos</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>    
+      <header>
+        <nav>
+          <img class="logo" src="./images/paw.svg" alt="Imagem da logomarca" />
+        </nav>
+
+        <form>
+          <div class="input-wrapper">            
+            <input id="search" type="text" placeholder="Pesquise por artigos" >
+          </div>
+        </form>
+
+        <img class="avatar"/>
+      </header>
+
+      <main>
+        <div class="about">
+          <div class="home">
+            <div class="frame">    
+              <img class="fotoGatoMaior"/>
+              <h2> Seriam os gatos astronautas?</h2>            
+              <p>Os gatos são animais fascinantes e cercados de mistérios. De temperamento independente e misterioso, esses felinos são conhecidos por sua agilidade, elegância e um comportamento muitas vezes imprevisível. Contudo, recentemente, uma teoria tem ganhado espaço na internet e entre teóricos de conspiração: seriam os gatos astronautas?
+              <br>A teoria sugere que os gatos não são animais terrestres, mas sim seres extraterrestres enviados para realizar uma missão específica em nosso planeta. Há relatos históricos que apontam para o fato de que os gatos eram considerados seres sagrados em diferentes culturas e até mesmo associados a figuras divinas. Isso poderia indicar que os gatos têm uma origem muito mais mística do que se pensava anteriormente.
+              
+              <p>Além disso, há teóricos que acreditam que os felinos possuem habilidades telepáticas e são capazes de se comunicar com outras espécies alienígenas. Essa crença baseia-se em relatos de pessoas que afirmam terem visto gatos reagindo a estímulos que não são perceptíveis aos seres humanos, ou até mesmo se comportando de maneira incomum durante eventos astronômicos, como uma aurora boreal. Esses e outros indícios foram interpretados como sinais de que os gatos seriam seres interplanetários.</p>
+            </div>
+          </div>
+          
+          <div class="home">
+            <div class="frame">          
+              <h2>Artigos relacionados</h2>
+              <div class="home-artigos">                
+                <div class="artigos-designer">
+                  <img src="./images/sabado.svg">
+                  <div class="artigos-text">
+                    <div class="artigos-main">
+                      <h3>Sábado preguiçoso </h3>
+                      <p>Descubra atividades interessantes para fazer com seu pet durante os finais de semana.</p>
+                    </div>
+                  </div>
+                </div>            
+              </div>
+              
+              <div class="home-artigos">                
+                <div class="artigos-designer">
+                  <img src="./images/balaio.svg">
+                  <div class="artigos-text">
+                    <div class="artigos-main">
+                      <h3>Balaio de gatos </h3>
+                      <p>Como evitar confusões entre seus gatíneos e acostumá-los desde filhotes.</p>
+                    </div>
+                  </div>
+                </div>            
+              </div>
+
+              <div class="home-artigos">                
+                <div class="artigos-designer">
+                  <img src="./images/cartela.svg">
+                  <div class="artigos-text">
+                    <div class="artigos-main">
+                      <h3>Cartela de cores </h3>
+                      <p>Seu gato é inverno intenso? Verão profundo? Descubra as cores que mais combinam com seu bichano.</p>
+                    </div>
+                  </div>
+                </div>            
+              </div>
+
+              <div class="home-artigos">                
+                <div class="artigos-designer">
+                  <img src="./images/frio.svg">
+                  <div class="artigos-text">
+                    <div class="artigos-main">
+                      <h3>Os gatos sentem frio? </h3>
+                      <p>Preparem-se para a frente fria que vem para o país da melhor maneira possível.</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>            
-          </div>
-        </div>
-      </div>      
-      
-      <div class="home-rocket">
-        <div class="rocket-content">
-          <div class="rocket-header">
-            <img class="rocket-img" src="./images/logo.svg">
 
-            <h1 class="text-h1">Conheça a Rocketseat</h1>    
-          
-            <h4 class="text-h4">A Rocketseat é uma escola de programação, com mais de 50 mil alunos e alunas. Também é a maior comunidade de pessoas desenvolvedoras da América Latina.  👋🏼</h4>  
-          </div>
-
-          <div class="rocket-numbers">
-            <div class=".number-rown1">
-              <div class="row1-item">
-                <item-titulo> + <item-titulo-info> 1 Milhão</item-titulo-info></item-titulo>
-                <item-text>Devs impactados por eventos e cursos gratuitos</item-text>
-              
-                <item-titulo> + <item-titulo-info> 600 mill</item-titulo-info></item-titulo>
-                <item-text>Devs e parceiros na Plataforma Rocketseat</item-text>
-              </div>
-            </div>
-          
-            <div class=".number-rown1">
-              <div class="row1-item">
-                <item-titulo> + <item-titulo-info> 220 mil</item-titulo-info></item-titulo>
-                <item-text>Devs na comunidade aberta no Discord</item-text>
-
-                <item-titulo> + <item-titulo-info> 220 mil</item-titulo-info></item-titulo>
-                <item-text>Devs no canal do Youtube</item-text>
+              <div class="home-artigos">                
+                <div class="artigos-designer">
+                  <img src="./images/moacir.svg">
+                  <div class="artigos-text">
+                    <div class="artigos-main">
+                      <h3>Conheça o Moacir </h3>
+                      <p>Moacir é o gatinho da semana do nosso blog. Venha conhecer sua história de superação.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-        <hr class="line-rockect"/>
-
-        <div class="links">
-          <div class="link-group">
-              
-            <h3 class="link-title">Siga nas redes</h3>
-            
-            <div class="link-link"> 
-              <img class="img-rocket" src="./images/ArrowUpRight.svg"><h4 class="link-text">Nosso site</h4>
-            </div>
-            <div class="link-link"> 
-              <img class="img-rocket" src="./images/ArrowUpRight.svg"><h4 class="link-text">Instagram</h4>
-            </div>
-            <div class="link-link"> 
-              <img class="img-rocket" src="./images/ArrowUpRight.svg"><h4 class="link-text">Youtube</h4>
-            </div>
-            <div class="link-link"> 
-              <img class="img-rocket" src="./images/ArrowUpRight.svg"><h4 class="link-text">Comunidade Discord</h4>
-            </div>            
-          </div>
         </div>
-      </div>
-    </div>  
-  </main>  
-</body>
+      </main>
+
+      <footer class="container">
+        <p>© 2023 - Rocketseat Explorer</p>
+      </footer>
+  </body>
 </html>
